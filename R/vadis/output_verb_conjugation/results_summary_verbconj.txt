@@ -1,0 +1,141 @@
+summary_line1
+   N baseline predicted.corr Brier     C LogScore     AIC Max.VIF kappa HosLem.p
+A 84    0.643          0.607 0.224 0.606    0.639 115.345   2.079 4.737    0.952
+B 83    0.506          0.530 0.248 0.540    0.690 122.536   2.314 5.308    1.000
+C 81    0.617          0.704 0.206 0.696    0.603 105.614   1.625 3.569    1.000
+
+===================================
+
+LINE 1
+signif_line$signif.table
+            A B C
+(Intercept) 0 0 1
+sex         0 0 0
+schooling2  0 0 0
+schooling3  0 0 1
+
+
+signif_line$distance.matrix
+         A         B
+B 0.0000000          
+C 0.3333333 0.3333333
+
+
+signif_line$similarity.scores
+  Similarity
+A  0.8333333
+B  0.8333333
+C  0.6666667
+
+=============================================
+
+LINE 2
+coef_line$coef.table
+                 A      B      C
+(Intercept) -0.876 -0.175  1.209
+sex         -0.291  0.205  0.546
+schooling2   0.140  0.130 -0.203
+schooling3   0.769  0.282 -1.488
+
+
+coef_line$distance.matrix
+      A     B
+B 0.201      
+C 0.702 0.529
+
+
+coef_line$similarity.scores
+  Similarity
+B  0.6349904
+A  0.5485735
+C  0.3843544
+=============================================
+
+LINE 3
+random forest
+   N baseline predicted.corr Brier   C LogScore
+A 84    0.643          0.417 0.245 NaN    1.455
+B 83    0.506          0.639 0.263 NaN    0.669
+C 81    0.617          0.605 0.226 NaN    1.151
+
+
+varimp_line$varimp.table 
+              A      B     C
+sex       0.003 -0.003 0.002
+schooling 0.002 -0.004 0.035
+
+
+varimp_line$rank.table
+          A B C
+sex       1 1 2
+schooling 2 2 1
+
+
+varimp_line$distance.matrix
+  A B
+B 0  
+C 2 2
+
+
+
+varimp_line$similarity.scores
+  Similarity
+A          0
+B          0
+C         -1
+
+==========================================
+MEDIA DAS LINHAS
+  line1 line2 line3  mean
+A 0.833 0.549     0 0.461
+B 0.833 0.635     0 0.489
+C 0.667 0.384    -1 0.017
+
+==========================================
+MATRIZ DAS MEDIAS DE CADA MATRIZ DE DISTANCE DE CADA LINHA
+      A     B
+B 0.095      
+C 1.000 0.918
+===========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
