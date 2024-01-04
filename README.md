@@ -12,7 +12,7 @@ This repository houses a computational research project focused on sociolect (di
 
 ## Using the codes 🎉
 
-The Python🐍 codes were used to read, process, clean and organize the data so that they could go over the models. We suggest you to use them in the following order:
+The Python🐍 codes were used to read, process, clean and organize the data so that it could go over the models. We suggest you to use them in the following order:
 1. reading_postagged_files -> read and preprocess the transcription files
 2. reading_header_files -> read and preprocess the metadata files
 3. extracting_info_from_postagged_texts -> extract linguistic variables from the output dataframe in reading_postagged_files
