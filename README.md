@@ -21,6 +21,9 @@ The Python🐍 codes were used to read, process, clean and organize the data so 
 
 The R codes can be used in whatever order you may prefer!
 
+## Final paper 🖋️
+TO BE PUBLISHED
+
 ## Gratitude note 🦄
 
 I would like to thank my wonderful advisors Dr. Heliana Mello and Dr. Crysttian Paixão!
